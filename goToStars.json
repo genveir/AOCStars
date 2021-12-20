@@ -1,0 +1,15 @@
+[{
+    "id": 1,
+    "condition": {
+        "urlFilter": "https://adventofcode.com/*/leaderboard/private/view/*",
+        "resourceTypes": ["main_frame"]
+    },
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "transform": {
+                "query": "?order=stars"
+            }
+        }
+    }
+}]
